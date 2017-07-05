@@ -1,12 +1,12 @@
 
  
 # Intellij
-.idea/
+.idea/*.*
 *.iml
 *.iws
  
 # Maven
-log/
-target/
-build/
-Salesforce_settings/
+log//*.*
+target//*.*
+build//*.*
+Salesforce_settings//*.*
