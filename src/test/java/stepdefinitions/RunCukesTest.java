@@ -9,10 +9,6 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(strict = false, features = "classpath:features", format = { "pretty",
         "html:target/site/cucumber-pretty",
         "json:target/site/cucumber.json",
-        "rerun:target/rerun.txt" }, tags = { "~@ignore" })
-/*@CucumberOptions(
-      features = "classpath:                features",
-      format = {"pretty", "html:target/cucumber-html-report"},
-      tags = {}
-      )*/
+        "rerun:target/rerun.txt" }, tags = {"@Account"} )
+
 public class RunCukesTest{}
