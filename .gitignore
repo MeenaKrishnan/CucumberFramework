@@ -10,3 +10,9 @@ log/
 target/
 build/
 Salesforce_settings/
+
+# Ignore hidden files
+.*
+**/.*
+
+*.iml
