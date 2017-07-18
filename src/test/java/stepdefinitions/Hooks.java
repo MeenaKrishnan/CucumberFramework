@@ -45,11 +45,11 @@ public class Hooks
    @Before
     public void setUp() throws Exception {
 
-       System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+      System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
        Configuration.browser = "chrome";
        open("https://login.salesforce.com");
 
-     /*   this.config_file="config.json";
+       /*this.config_file="config.json";
         this.environment="chrome";
         JSONParser parser = new JSONParser();
         JSONObject config = (JSONObject)parser.parse(new FileReader("src/test/resources/conf/" + config_file));
@@ -95,7 +95,7 @@ public class Hooks
         driver.get("https://login.salesforce.com/");
         sessionId = driver.getSessionId().toString();
 
-        WebDriverRunner.setWebDriver(driver);*/
+        WebDriverRunner.setWebDriver(driver);
     }
 
     @AfterMethod(alwaysRun=true)
@@ -103,7 +103,7 @@ public class Hooks
         driver.quit();
         if (local != null) {
             local.stop();
-        }
+        }*/
     }
 
 
