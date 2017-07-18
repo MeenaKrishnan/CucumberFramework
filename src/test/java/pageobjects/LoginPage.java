@@ -28,20 +28,20 @@ public class LoginPage {
         {
 
             case "csr":
-                username.setValue("meenamuthu05@gmail.com");
-                password.setValue("memu0501");
+                username.setValue("testuser050184@gmail.com");
+                password.setValue("memu050184");
                 break;
             case "manager":
-                username.setValue("meenamuthu05@gmail.com");
-                password.setValue("memu0501");
+                username.setValue("testuser050184@gmail.com");
+                password.setValue("memu050184");
                 break;
             case "ceo":
-                username.setValue("meenamuthu05@gmail.com");
-                password.setValue("memu0501");
+                username.setValue("testuser050184@gmail.com");
+                password.setValue("memu050184");
                 break;
             default:
-                username.setValue("meenamuthu05@gmail.com");
-                password.setValue("memu0501");
+                username.setValue("testuser050184@gmail.com");
+                password.setValue("memu050184");
         }
         loginbutton.click();
         return page(LandingPage.class);
